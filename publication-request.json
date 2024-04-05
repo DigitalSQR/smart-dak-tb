@@ -1,0 +1,14 @@
+{
+    "package-id" : "smart.who.int.dak-tb",
+    "title" : "TB DAK", 
+    "category" : "base",
+    "introduction" : "SMART DAK TB Implementation Guide",
+    "version" : "0.1.0",
+    "desc" : "0.1.0 release - video tutorials added",
+    "mode" : "milestone",    
+    "path" : "http://smart.who.int/dak-tb/0.1.0",
+    "ci-build": "http://DigitalSQR.github.io/dak-tb",    
+    "first": true,
+    "status" : "release",
+    "sequence" : "Releases"
+  }
