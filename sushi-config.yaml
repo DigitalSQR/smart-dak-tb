@@ -222,5 +222,5 @@ parameters:
   - input/sl
   - input/ind
   - input/fnqr
-  - input/tc
+  - input/test
 
