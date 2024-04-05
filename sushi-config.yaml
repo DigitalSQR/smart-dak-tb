@@ -213,7 +213,7 @@ dependencies:
 
 
 parameters: 
-  path-pages: 
+  path-binary: 
   - input/l2
   - input/dd
   - input/dsl
