@@ -1,11 +1,11 @@
-id: smart.who.int.dak-tb
-canonical: http://worldhealthorganization.github.io/smart
+id: smart.who.int.dak.tb
+canonical: http://smart.who.int/dak/tb
 name: SMART
-title: SMART Empty IG
+title: SMART
 description: An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides
 status: draft # draft | active | retired | unknown
-version: 0.1.0
-fhirVersion: 4.3.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+version: v3.0.0
+fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
