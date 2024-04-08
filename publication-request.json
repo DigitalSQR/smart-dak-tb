@@ -8,7 +8,7 @@
     "mode" : "milestone",    
     "path" : "http://smart.who.int/dak/tb/v2.0.0",
     "ci-build": "http://DigitalSQR.github.io/dak/tb",    
-    "first": false,
+    "first": true,
     "status" : "release",
     "sequence" : "Releases"
   }
