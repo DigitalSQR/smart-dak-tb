@@ -21,6 +21,13 @@ This implementation guide is broken into the following levels of [knowledge repr
 - <a href="data-models-and-exchange.html">Data Models and Exchange</a> - contains the data models and data exchange protocols with actors and transactions defined.
 - <a href="deployment.html">Deployment Guidance </a> - contains relevant technical specifications and guidance, testing resources, reference implementation materials, and supporting guidance for adaptation to local contexts.
 
+
+These are the current versions:
+
+| | Document | Link |
+|---|---|
+| Data Dictionary | [TB DAK_A_core data dictionary.xlsx](TB DAK_A_core data dictionary.xlsx) |
+
 This guide is prepared to facilitate digital implementation of WHO <mark>[insert health domain here]</mark> guidelines by providing FHIR-based computable representations of and implementation guidance for using the key components of the WHO <mark>[insert health domain here]</mark> digital adaptation kit (DAK):
 
 * Health Interventions & Recommendations
