@@ -6,9 +6,9 @@
     "version" : "4.0.0",
     "desc" : "v4.0.0 release",
     "mode" : "milestone",    
-    "path" : "http://smart.who.int/dak/tb/4.0.0",
+    "path" : "http://smart.who.int/dak/tb/v4.0.0",
     "ci-build": "http://DigitalSQR.github.io/dak/tb",    
-    "first": true,
+    "first": false,
     "status" : "release",
     "sequence" : "Releases"
   }
