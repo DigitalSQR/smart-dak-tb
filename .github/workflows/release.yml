@@ -1,9 +1,8 @@
 name: Release build
 
 on:
-  push:
-    tags:
-      - 'v*'
+  release:
+    types: [created]
   workflow_dispatch:
 
 jobs:
@@ -14,6 +13,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.release.tag_name }}
 
       - name: Check for publication-request.json
         id: checkfile
@@ -29,4 +30,4 @@ jobs:
     if: needs.check.outputs.file_exists == 'true'
     uses: WorldHealthOrganization/smart-html/.github/workflows/release.yml@main
 #    with:
-#      tag_name: ${{ github.ref_name }}
+#      tag_name: ${{ github.event.release.tag_name }}
