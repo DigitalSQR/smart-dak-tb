@@ -28,5 +28,5 @@ jobs:
     needs: check
     if: needs.check.outputs.file_exists == 'true'
     uses: WorldHealthOrganization/smart-html/.github/workflows/release.yml@main
-    with:
-      tag_name: ${{ github.ref_name }}
+#    with:
+#      tag_name: ${{ github.ref_name }}
