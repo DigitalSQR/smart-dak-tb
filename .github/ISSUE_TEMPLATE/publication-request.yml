@@ -1,0 +1,82 @@
+name: Publication Request
+description: Use this template to request the publication of a new package.
+title: "[Publication Request] - {{ env.PACKAGE_TITLE }}"
+labels: ["publication-request", "milestone"]
+assignees: ""
+body:
+  - type: markdown
+    attributes:
+      value: "## Publication Request Form"
+  - type: hidden
+    attributes:
+      label: package-id
+      value: ${{ env.PACKAGE_ID }}
+  - type: hidden
+    attributes:
+      label: title
+      value: ${{ env.PACKAGE_TITLE }}
+  - type: input
+    attributes:
+      label: Category
+      description: "Enter the category for the publication."
+      placeholder: "e.g., base, advanced"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Introduction
+      description: "Provide a brief introduction for the publication."
+      placeholder: "Brief introduction"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Version
+      description: "Specify the version of the package."
+      placeholder: "e.g., 0.9.9"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: "Describe the details of this release."
+      placeholder: "Detailed description of the release"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Mode
+      description: "Select the release mode."
+      options:
+        - milestone
+        - stable
+        - experimental
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Path
+      description: "Enter the URL path where the publication will be accessible."
+      placeholder: "http://..."
+    validations:
+      required: true
+  - type: hidden
+    attributes:
+      label: CI Build
+      value: ${{ env.CI_BUILD_URL }}
+  - type: checkboxes
+    attributes:
+      label: First Release?
+      options:
+        - label: "Yes, this is the first release of the package."
+          required: true
+  - type: dropdown
+    attributes:
+      label: Status
+      description: "Select the current status of the publication."
+      options:
+        - draft
+        - review
+        - final
+    validations:
+      required: true
