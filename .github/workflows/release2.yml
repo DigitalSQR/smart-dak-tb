@@ -1,0 +1,49 @@
+name: Create JSON from Issue
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  create_json:
+    if: contains(github.event.comment.body, '/approve') # Ensure this triggers on an approval comment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js for using jq
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Extract issue data and write to JSON
+        env:
+          PACKAGE_ID: ${{ secrets.PACKAGE_ID }}  # Assuming you've set PACKAGE_ID as a secret
+          CI_BUILD_URL: ${{ secrets.CI_BUILD_URL }}  # Assuming you've set CI_BUILD_URL as a secret
+        run: |
+          # Extracting details from the issue body
+          ISSUE_BODY="${{ github.event.issue.body }}"
+
+          # Example extraction logic (customize according to your issue body structure)
+          CATEGORY=$(echo "$ISSUE_BODY" | grep -oP 'Category:\s*\K.*')
+          VERSION=$(echo "$ISSUE_BODY" | grep -oP 'Version:\s*\K.*')
+          PATH="http://smart.who.int/dak-tb/$VERSION"
+
+          # Compose the JSON file
+          echo "{
+            \"package-id\": \"$PACKAGE_ID\",
+            \"title\": \"${{ github.event.issue.title }}\",
+            \"category\": \"$CATEGORY\",
+            \"version\": \"$VERSION\",
+            \"path\": \"$PATH\",
+            \"ci-build\": \"$CI_BUILD_URL\",
+            \"status\": \"approved\"
+          }" > publication-request.json
+
+          # Optionally add and commit the file to the repo
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add publication-request.json
+          git commit -m "Create publication-request.json for approved issue"
+          git push
