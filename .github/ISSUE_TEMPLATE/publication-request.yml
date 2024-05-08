@@ -2,16 +2,15 @@ name: Publication Request
 description: Use this template to request the publication of a new package.
 title: "[Publication Request] - {{ env.PACKAGE_TITLE }}"
 labels: ["publication-request", "milestone"]
-assignees: ""
 body:
   - type: markdown
     attributes:
       value: "## Publication Request Form"
-  - type: hidden
+  - type: input
     attributes:
       label: package-id
       value: ${{ env.PACKAGE_ID }}
-  - type: hidden
+  - type: input
     attributes:
       label: title
       value: ${{ env.PACKAGE_TITLE }}
