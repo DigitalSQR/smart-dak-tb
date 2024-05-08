@@ -59,7 +59,7 @@ body:
       placeholder: "http://..."
     validations:
       required: true
-  - type: hidden
+  - type: input
     attributes:
       label: CI Build
       value: ${{ env.CI_BUILD_URL }}
