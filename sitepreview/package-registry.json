@@ -1,0 +1,23 @@
+{
+  "packages" : [
+    {
+      "path" : "dak/tb/package-list.json",
+      "package-id" : "smart.who.int.dak.tb",
+      "title" : "TB DAK",
+      "canonical" : "http://smart.who.int/dak/tb",
+      "category" : "base",
+      "ci-build" : "http://DigitalSQR.github.io/dak/tb",
+      "version-count" : 1,
+      "latest" : {
+        "version" : "4.0.0",
+        "date" : "2024-04-11",
+        "path" : "http://smart.who.int/dak/tb/v4.0.0"
+      },
+      "milestone" : {
+        "version" : "4.0.0",
+        "date" : "2024-04-11",
+        "path" : "http://smart.who.int/dak/tb/v4.0.0"
+      }
+    }
+  ]
+}

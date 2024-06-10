@@ -1,0 +1,25 @@
+{
+  "list" : [
+    {
+      "version" : "current",
+      "path" : "http://DigitalSQR.github.io/dak/tb",
+      "status" : "ci-build",
+      "sequence" : "ci-build"
+    },
+    {
+      "version" : "4.0.0",
+      "path" : "http://smart.who.int/dak/tb/v4.0.0",
+      "status" : "release",
+      "sequence" : "Releases",
+      "fhirversion" : "4.0.1",
+      "date" : "2024-04-11",
+      "current" : true,
+      "desc" : "v4.0.0 release"
+    }
+  ],
+  "package-id" : "smart.who.int.dak.tb",
+  "canonical" : "http://smart.who.int/dak/tb",
+  "title" : "TB DAK",
+  "category" : "base",
+  "introduction" : "SMART DAK TB Implementation Guide"
+}

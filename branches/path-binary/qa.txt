@@ -1,0 +1,79 @@
+SMART : Validation Results
+=========================================
+
+err = 2, warn = 5, info = 0
+IG Publisher Version: 1.6.4
+Generated Fri Apr 05 11:50:00 UTC 2024. FHIR version 4.3.0 for who.fhir.smart-ig-empty#0.1.0 (canonical = http://worldhealthorganization.github.io/smart)
+ Build Errors : 61 / 4 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty : 2 / 1 / 1
+</table>
+== n/a ==
+ERROR: /github/workspace/output/adapting.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/adapting.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/adapting.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/business-processes.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/business-processes.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/business-processes.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/business-requirements.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/business-requirements.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/business-requirements.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/business-requirements.html#/html/body/div/div/div/div/div/ul/li/a at Line 234, column 8: The link 'concepts.html' for "Concepts" cannot be resolved
+ERROR: /github/workspace/output/business-requirements.html#/html/body/div/div/div/div/div/ul/li/a at Line 235, column 8: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/business-requirements.html#/html/body/div/div/div/div/div/ul/li/a at Line 236, column 8: The link 'scenarios.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/business-requirements.html#/html/body/div/div/div/div/div/ul/li/a at Line 241, column 8: The link 'functional-requirements.html' for "Functional Requirements" cannot be resolved
+ERROR: /github/workspace/output/business-requirements.html#/html/body/div/div/div/div/div/ul/li/a at Line 242, column 8: The link 'non-functional-requirements.html' for "Non-functional Requirements" cannot be resolved
+ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/decision-logic.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/decision-logic.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/decision-logic.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/dependencies.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/dependencies.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/dependencies.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/dictionary.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/dictionary.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/dictionary.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/dictionary.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 244, column 12: The link 'TB DAK_A_core data dictionary.xlsx' for "TB DAK_A_core data dictionary.xlsx" cannot be resolved
+ERROR: /github/workspace/output/dictionary.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 248, column 12: The link 'TB DAK_A_core data dictionary_v1.0.0.xlsx' for "TB DAK_A_core data dictionary_v1.0.0.xlsx" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/ul/li/a at Line 297, column 8: The link 'data-models-and-exchange.html' for "Data Models and Exchange" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/ul/li/a at Line 298, column 8: The link 'deployment.html' for "Deployment Guidance" cannot be resolved
+ERROR: /github/workspace/output/indicators.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/indicators.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/indicators.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/indicators.html#/html/body/div/div/div/div/div/p/a at Line 240, column 48: The link 'indicators-measures.html' for "Indicators and Measures" cannot be resolved
+ERROR: /github/workspace/output/indices.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/indices.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/indices.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/license.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/license.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/license.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/references.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/references.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/references.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/requirements.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/requirements.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/requirements.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/scheduling-logic.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/scheduling-logic.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/scheduling-logic.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'security-privacy.html' for "Security and Privacy Considerations" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'testing.html' for "Testing" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'maps.html' for "Mappings" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty.json ==
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.meta.profile[0]: Canonical URLs must be absolute URLs if they are not fragment references (SMARTImplementationGuide)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.3.0)
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.meta.profile[0]: Profile reference 'SMARTImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
